@@ -9,7 +9,7 @@ Simple, easy to use, multi coloured and customisable loading indicator (loader) 
 
 ### Basic usage
 
-Add BLMultiColorLoader class into your project.
+Add BLMultiColorLoader class ("BLMultiColorLoader.h" and "BLMultiColorLoader.m") into your project.
 
 ```objective-c
 #import <UIKit/UIKit.h>
