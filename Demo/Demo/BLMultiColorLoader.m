@@ -113,6 +113,11 @@
     [self.circleLayer removeAnimationForKey:@"strokeColorAnimation"];
 }
 
+- (void)stopAnimationAfter:(NSTimeInterval)timeInterval
+{
+    [self performSelector:@selector(stopAnimation) withObject:nil afterDelay:timeInterval];
+}
+
 - (BOOL)isAnimating {
     return _animating;
 }

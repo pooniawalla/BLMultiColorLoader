@@ -22,6 +22,7 @@
 
 - (void)startAnimation;
 - (void)stopAnimation;
+- (void)stopAnimationAfter:(NSTimeInterval)timeInterval;
 - (BOOL)isAnimating;
 
 @end
