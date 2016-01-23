@@ -56,7 +56,7 @@ Add BLMultiColorLoader class ("BLMultiColorLoader.h" and "BLMultiColorLoader.m")
 
 ## Author
 
-- [Babulal Poonia](https://github.com/BLPoonia) ([@_iambabu](https://twitter.com/_iambabu))
+- [Babulal Poonia](https://github.com/BLPoonia) ([@__poonia](https://twitter.com/__poonia))
 
 ## License
 
