@@ -9,7 +9,7 @@ Simple, easy to use, multi coloured and customisable loading indicator (loader) 
 
 ## Screenshots
 
-![Demo](./Screens/loader_screenshot.gif "Demo View")
+![Demo](../Screens/loader_screenshot.gif "Demo View")
 
 ### Usage
 

@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A8773400E958320C18A458A2498EB9 /* Pods-BLMultiColorLoader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B022C95A83AE1322617E74951CB3AB /* Pods-BLMultiColorLoader_Tests-dummy.m */; };
+		2369B13DA7F7C4E2CE6D7B0B07089348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		4565E156AB5581594AE9499FF60D9EDD /* BLMultiColorLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6308DA2A8F075F7AC4A2BF921E259BBD /* BLMultiColorLoader-dummy.m */; };
+		4E0C7B077123A9E5D048600963DB74A1 /* BLMultiColorLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1E2A19C23CFCAA7612F9C4DA7F6CA1 /* BLMultiColorLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72040C9FAF0BDF68945DF8AD9D4559D6 /* BLMultiColorLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F5D4CB4A69E28043EC2B382F2BA752 /* BLMultiColorLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8458C7B7E4FBD6E840E2C25CC1AF0F20 /* BLMultiColorLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D4188E020CD7541BF85CF95D85DEF7 /* BLMultiColorLoader.m */; };
+		9F3B1EADF293EFB69CBFED0747755962 /* Pods-BLMultiColorLoader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E13A66850FB9418551D3D5BE24496D7 /* Pods-BLMultiColorLoader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7F23446BA0BEAFD57B89A68592CD5ED /* Pods-BLMultiColorLoader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B5112B6AFF6E4B5AA81D7D60F812D7 /* Pods-BLMultiColorLoader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB71B0F282FBA5774C8C935AE922539E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		BB5232F4E224BDA28BB97EE6E04BC944 /* BLMultiColorLoader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD27E55695C6E22DB875D213A2507EE0 /* BLMultiColorLoader.bundle */; };
+		BF49F3E223F4471D95A1A403956A33D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		C015654C34DDC100DFBE445862B9A7C2 /* Pods-BLMultiColorLoader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9415A84B53B984B491FF14F54ED4B85 /* Pods-BLMultiColorLoader_Example-dummy.m */; };
+		FD9B7A2E7502E7266DD011CC3284A782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97FCDA07B549C912A0F1C3BE3D4E5546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB99DB2502EC08893C64CFDBEEE5A07;
+			remoteInfo = BLMultiColorLoader;
+		};
+		B8C3EFDD58847CA8EF0A0DE74E624508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB99DB2502EC08893C64CFDBEEE5A07;
+			remoteInfo = BLMultiColorLoader;
+		};
+		EE2D62DDF6E97C08A5D0FCA488F35B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1069FC937B4ED8AC09CBDAADD5BD35F2;
+			remoteInfo = "BLMultiColorLoader-BLMultiColorLoader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B5112B6AFF6E4B5AA81D7D60F812D7 /* Pods-BLMultiColorLoader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLMultiColorLoader_Tests-umbrella.h"; sourceTree = "<group>"; };
+		061FB3533EDAB82A7DDE032EF66F9DCA /* Pods-BLMultiColorLoader_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLMultiColorLoader_Tests-resources.sh"; sourceTree = "<group>"; };
+		0C744040A42115A7FAE009C8ED2647A4 /* Pods_BLMultiColorLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLMultiColorLoader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		188187EC1B297F1BF69AA26A8B6E757F /* Pods-BLMultiColorLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLMultiColorLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		18D516A2A07DCDF9A25F22B0483993B5 /* Pods-BLMultiColorLoader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLMultiColorLoader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20B32F5A6BE13B058F4BAA35BFE1688B /* Pods-BLMultiColorLoader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLMultiColorLoader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		387C1A5319A55F38AC91165645BECD02 /* Pods-BLMultiColorLoader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLMultiColorLoader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E13A66850FB9418551D3D5BE24496D7 /* Pods-BLMultiColorLoader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLMultiColorLoader_Example-umbrella.h"; sourceTree = "<group>"; };
+		436E830B1F2FF5763CF3C99C84CC00F9 /* Pods_BLMultiColorLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLMultiColorLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBDE39DB5A239EE85BDDF272B75A989 /* Pods-BLMultiColorLoader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLMultiColorLoader_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6308DA2A8F075F7AC4A2BF921E259BBD /* BLMultiColorLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLMultiColorLoader-dummy.m"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		783FF85F744E4AA6F198247D8B0B6F48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB106D5D53964E145709653F36E115B /* BLMultiColorLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLMultiColorLoader-prefix.pch"; sourceTree = "<group>"; };
+		825092395F757E1DFCDCA2C86184A274 /* Pods-BLMultiColorLoader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLMultiColorLoader_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9249457D55CBF925FDF06EBC9F9592C1 /* Pods-BLMultiColorLoader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLMultiColorLoader_Tests.modulemap"; sourceTree = "<group>"; };
+		993B7731EB0CE6E81760F3A781896D83 /* BLMultiColorLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLMultiColorLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0317F3FF0AF795693250FE73BCE4FB3 /* Pods-BLMultiColorLoader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLMultiColorLoader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4CD3DEE375DC06EB1EDF82FB75D3B48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8867F2FC54EB171ADE7A159303CBAA /* Pods-BLMultiColorLoader_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLMultiColorLoader_Example-resources.sh"; sourceTree = "<group>"; };
+		B9415A84B53B984B491FF14F54ED4B85 /* Pods-BLMultiColorLoader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLMultiColorLoader_Example-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBC1D0CD05A46480D17CE5333F6CC382 /* Pods-BLMultiColorLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLMultiColorLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC47B6B9E55B51D0609FAACC8CC6B989 /* BLMultiColorLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BLMultiColorLoader.modulemap; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9D4188E020CD7541BF85CF95D85DEF7 /* BLMultiColorLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BLMultiColorLoader.m; sourceTree = "<group>"; };
+		CCC048BA0CA42D4EC1DA35DF3CC73159 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4AE9D0CA3CF62E50AAA56F8A605626 /* Pods-BLMultiColorLoader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLMultiColorLoader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEEB1C1F2CA063696A2F5F6D163B5149 /* Pods-BLMultiColorLoader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLMultiColorLoader_Example.modulemap"; sourceTree = "<group>"; };
+		CF97CE0E6C1825A64D9AB2E64269AF83 /* BLMultiColorLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLMultiColorLoader.xcconfig; sourceTree = "<group>"; };
+		DD1E2A19C23CFCAA7612F9C4DA7F6CA1 /* BLMultiColorLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BLMultiColorLoader.h; sourceTree = "<group>"; };
+		DD27E55695C6E22DB875D213A2507EE0 /* BLMultiColorLoader.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLMultiColorLoader.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F5D4CB4A69E28043EC2B382F2BA752 /* BLMultiColorLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLMultiColorLoader-umbrella.h"; sourceTree = "<group>"; };
+		E52C2A5C5F8523BE3087AAF4DAC86A6B /* Pods-BLMultiColorLoader_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLMultiColorLoader_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E8B022C95A83AE1322617E74951CB3AB /* Pods-BLMultiColorLoader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLMultiColorLoader_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A4DE8AD2AB664B67C381478744417BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB71B0F282FBA5774C8C935AE922539E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB8CEA92D22C92DF15035B46CFFEEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9B7A2E7502E7266DD011CC3284A782 /* Foundation.framework in Frameworks */,
+				BF49F3E223F4471D95A1A403956A33D5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D555870B6D33A8BB4BA0580715436CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2369B13DA7F7C4E2CE6D7B0B07089348 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E39A952746E3EF011E7738D19532D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EFB26C6A50D36C3A9B150864C50A8C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD27E55695C6E22DB875D213A2507EE0 /* BLMultiColorLoader.bundle */,
+				993B7731EB0CE6E81760F3A781896D83 /* BLMultiColorLoader.framework */,
+				436E830B1F2FF5763CF3C99C84CC00F9 /* Pods_BLMultiColorLoader_Example.framework */,
+				0C744040A42115A7FAE009C8ED2647A4 /* Pods_BLMultiColorLoader_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		239501FAD4B6FD5F48668A485B78E5CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DD1E2A19C23CFCAA7612F9C4DA7F6CA1 /* BLMultiColorLoader.h */,
+				C9D4188E020CD7541BF85CF95D85DEF7 /* BLMultiColorLoader.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DF7C8E78D87A3D82613558DB611AA6F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				903C83BE1A8B58F2830B2808A0DB1C40 /* BLMultiColorLoader */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				6DF7C8E78D87A3D82613558DB611AA6F /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0EFB26C6A50D36C3A9B150864C50A8C1 /* Products */,
+				F5C62786928D5641045D2FD8956854D5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		903C83BE1A8B58F2830B2808A0DB1C40 /* BLMultiColorLoader */ = {
+			isa = PBXGroup;
+			children = (
+				DDD3A6207FF07C743D8F6BB3E13C7DC7 /* Pod */,
+				EA5FCD4986180306535821815A64DEC7 /* Support Files */,
+			);
+			name = BLMultiColorLoader;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B64EEF0F9A4FCCB4AE1089BC1ED866A6 /* Pods-BLMultiColorLoader_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A4CD3DEE375DC06EB1EDF82FB75D3B48 /* Info.plist */,
+				CEEB1C1F2CA063696A2F5F6D163B5149 /* Pods-BLMultiColorLoader_Example.modulemap */,
+				18D516A2A07DCDF9A25F22B0483993B5 /* Pods-BLMultiColorLoader_Example-acknowledgements.markdown */,
+				387C1A5319A55F38AC91165645BECD02 /* Pods-BLMultiColorLoader_Example-acknowledgements.plist */,
+				B9415A84B53B984B491FF14F54ED4B85 /* Pods-BLMultiColorLoader_Example-dummy.m */,
+				825092395F757E1DFCDCA2C86184A274 /* Pods-BLMultiColorLoader_Example-frameworks.sh */,
+				AC8867F2FC54EB171ADE7A159303CBAA /* Pods-BLMultiColorLoader_Example-resources.sh */,
+				3E13A66850FB9418551D3D5BE24496D7 /* Pods-BLMultiColorLoader_Example-umbrella.h */,
+				BBC1D0CD05A46480D17CE5333F6CC382 /* Pods-BLMultiColorLoader_Example.debug.xcconfig */,
+				188187EC1B297F1BF69AA26A8B6E757F /* Pods-BLMultiColorLoader_Example.release.xcconfig */,
+			);
+			name = "Pods-BLMultiColorLoader_Example";
+			path = "Target Support Files/Pods-BLMultiColorLoader_Example";
+			sourceTree = "<group>";
+		};
+		CF54721B72F40FB840DCEFE32C09DB80 /* Pods-BLMultiColorLoader_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC048BA0CA42D4EC1DA35DF3CC73159 /* Info.plist */,
+				9249457D55CBF925FDF06EBC9F9592C1 /* Pods-BLMultiColorLoader_Tests.modulemap */,
+				A0317F3FF0AF795693250FE73BCE4FB3 /* Pods-BLMultiColorLoader_Tests-acknowledgements.markdown */,
+				CD4AE9D0CA3CF62E50AAA56F8A605626 /* Pods-BLMultiColorLoader_Tests-acknowledgements.plist */,
+				E8B022C95A83AE1322617E74951CB3AB /* Pods-BLMultiColorLoader_Tests-dummy.m */,
+				E52C2A5C5F8523BE3087AAF4DAC86A6B /* Pods-BLMultiColorLoader_Tests-frameworks.sh */,
+				061FB3533EDAB82A7DDE032EF66F9DCA /* Pods-BLMultiColorLoader_Tests-resources.sh */,
+				01B5112B6AFF6E4B5AA81D7D60F812D7 /* Pods-BLMultiColorLoader_Tests-umbrella.h */,
+				20B32F5A6BE13B058F4BAA35BFE1688B /* Pods-BLMultiColorLoader_Tests.debug.xcconfig */,
+				4BBDE39DB5A239EE85BDDF272B75A989 /* Pods-BLMultiColorLoader_Tests.release.xcconfig */,
+			);
+			name = "Pods-BLMultiColorLoader_Tests";
+			path = "Target Support Files/Pods-BLMultiColorLoader_Tests";
+			sourceTree = "<group>";
+		};
+		DDD3A6207FF07C743D8F6BB3E13C7DC7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				239501FAD4B6FD5F48668A485B78E5CB /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		EA5FCD4986180306535821815A64DEC7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC47B6B9E55B51D0609FAACC8CC6B989 /* BLMultiColorLoader.modulemap */,
+				CF97CE0E6C1825A64D9AB2E64269AF83 /* BLMultiColorLoader.xcconfig */,
+				6308DA2A8F075F7AC4A2BF921E259BBD /* BLMultiColorLoader-dummy.m */,
+				7EB106D5D53964E145709653F36E115B /* BLMultiColorLoader-prefix.pch */,
+				E4F5D4CB4A69E28043EC2B382F2BA752 /* BLMultiColorLoader-umbrella.h */,
+				783FF85F744E4AA6F198247D8B0B6F48 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BLMultiColorLoader";
+			sourceTree = "<group>";
+		};
+		F5C62786928D5641045D2FD8956854D5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64EEF0F9A4FCCB4AE1089BC1ED866A6 /* Pods-BLMultiColorLoader_Example */,
+				CF54721B72F40FB840DCEFE32C09DB80 /* Pods-BLMultiColorLoader_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9AB70F1FADE20ED295B71F62DEC7ECA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3B1EADF293EFB69CBFED0747755962 /* Pods-BLMultiColorLoader_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC7A540C185011E6D062AEF85C0FAAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F23446BA0BEAFD57B89A68592CD5ED /* Pods-BLMultiColorLoader_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58D42C75AACB1B71099EA71434E688B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72040C9FAF0BDF68945DF8AD9D4559D6 /* BLMultiColorLoader-umbrella.h in Headers */,
+				4E0C7B077123A9E5D048600963DB74A1 /* BLMultiColorLoader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1069FC937B4ED8AC09CBDAADD5BD35F2 /* BLMultiColorLoader-BLMultiColorLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6237FA303CCA2A9C2C8F086061D5F56 /* Build configuration list for PBXNativeTarget "BLMultiColorLoader-BLMultiColorLoader" */;
+			buildPhases = (
+				78F0841E9F8A1A066BC8C4C53B09E01C /* Sources */,
+				D5E39A952746E3EF011E7738D19532D3 /* Frameworks */,
+				53BFDBAFD3397A0CA94FD93B74FCD256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLMultiColorLoader-BLMultiColorLoader";
+			productName = "BLMultiColorLoader-BLMultiColorLoader";
+			productReference = DD27E55695C6E22DB875D213A2507EE0 /* BLMultiColorLoader.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7AB99DB2502EC08893C64CFDBEEE5A07 /* BLMultiColorLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C58E07A7848158AA3B50D343ED6D94C /* Build configuration list for PBXNativeTarget "BLMultiColorLoader" */;
+			buildPhases = (
+				53AC89023A4A6A493C7D9A57E9DEA592 /* Sources */,
+				5CB8CEA92D22C92DF15035B46CFFEEA6 /* Frameworks */,
+				1B1E124D6C219EB24A0AACA97E09B765 /* Resources */,
+				B58D42C75AACB1B71099EA71434E688B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B55AF1589C8CE540EA67B935599C29 /* PBXTargetDependency */,
+			);
+			name = BLMultiColorLoader;
+			productName = BLMultiColorLoader;
+			productReference = 993B7731EB0CE6E81760F3A781896D83 /* BLMultiColorLoader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90FD780BA6E3ADEEC6C7A71227822EC1 /* Pods-BLMultiColorLoader_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D953883EB1EAB29EDB9CF77AC6336A72 /* Build configuration list for PBXNativeTarget "Pods-BLMultiColorLoader_Example" */;
+			buildPhases = (
+				B4859AA92C87E704662CE628391C238A /* Sources */,
+				D555870B6D33A8BB4BA0580715436CB5 /* Frameworks */,
+				9AB70F1FADE20ED295B71F62DEC7ECA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB834AE61F7E30FDFC44CE8ECC75FBFB /* PBXTargetDependency */,
+			);
+			name = "Pods-BLMultiColorLoader_Example";
+			productName = "Pods-BLMultiColorLoader_Example";
+			productReference = 436E830B1F2FF5763CF3C99C84CC00F9 /* Pods_BLMultiColorLoader_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B5EA408003BE16D29672C5B8BF0157A /* Pods-BLMultiColorLoader_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6DC4647497BEFEFC11790FA4311E59 /* Build configuration list for PBXNativeTarget "Pods-BLMultiColorLoader_Tests" */;
+			buildPhases = (
+				151ECF7C231FBAEF441F4A54260ED510 /* Sources */,
+				4A4DE8AD2AB664B67C381478744417BD /* Frameworks */,
+				AFC7A540C185011E6D062AEF85C0FAAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				766A7F5F0E54C3413E47558C9B2A8599 /* PBXTargetDependency */,
+			);
+			name = "Pods-BLMultiColorLoader_Tests";
+			productName = "Pods-BLMultiColorLoader_Tests";
+			productReference = 0C744040A42115A7FAE009C8ED2647A4 /* Pods_BLMultiColorLoader_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0EFB26C6A50D36C3A9B150864C50A8C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AB99DB2502EC08893C64CFDBEEE5A07 /* BLMultiColorLoader */,
+				1069FC937B4ED8AC09CBDAADD5BD35F2 /* BLMultiColorLoader-BLMultiColorLoader */,
+				90FD780BA6E3ADEEC6C7A71227822EC1 /* Pods-BLMultiColorLoader_Example */,
+				9B5EA408003BE16D29672C5B8BF0157A /* Pods-BLMultiColorLoader_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B1E124D6C219EB24A0AACA97E09B765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5232F4E224BDA28BB97EE6E04BC944 /* BLMultiColorLoader.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53BFDBAFD3397A0CA94FD93B74FCD256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		151ECF7C231FBAEF441F4A54260ED510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A8773400E958320C18A458A2498EB9 /* Pods-BLMultiColorLoader_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AC89023A4A6A493C7D9A57E9DEA592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4565E156AB5581594AE9499FF60D9EDD /* BLMultiColorLoader-dummy.m in Sources */,
+				8458C7B7E4FBD6E840E2C25CC1AF0F20 /* BLMultiColorLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F0841E9F8A1A066BC8C4C53B09E01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4859AA92C87E704662CE628391C238A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C015654C34DDC100DFBE445862B9A7C2 /* Pods-BLMultiColorLoader_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26B55AF1589C8CE540EA67B935599C29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BLMultiColorLoader-BLMultiColorLoader";
+			target = 1069FC937B4ED8AC09CBDAADD5BD35F2 /* BLMultiColorLoader-BLMultiColorLoader */;
+			targetProxy = EE2D62DDF6E97C08A5D0FCA488F35B1C /* PBXContainerItemProxy */;
+		};
+		766A7F5F0E54C3413E47558C9B2A8599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLMultiColorLoader;
+			target = 7AB99DB2502EC08893C64CFDBEEE5A07 /* BLMultiColorLoader */;
+			targetProxy = 97FCDA07B549C912A0F1C3BE3D4E5546 /* PBXContainerItemProxy */;
+		};
+		FB834AE61F7E30FDFC44CE8ECC75FBFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLMultiColorLoader;
+			target = 7AB99DB2502EC08893C64CFDBEEE5A07 /* BLMultiColorLoader */;
+			targetProxy = B8C3EFDD58847CA8EF0A0DE74E624508 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		404C2024633842F2791CF98A7D5A3F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBDE39DB5A239EE85BDDF272B75A989 /* Pods-BLMultiColorLoader_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLMultiColorLoader_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLMultiColorLoader_Tests/Pods-BLMultiColorLoader_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BLMultiColorLoader_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45469C650C6AD52F94D971AD7A36778D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 188187EC1B297F1BF69AA26A8B6E757F /* Pods-BLMultiColorLoader_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLMultiColorLoader_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLMultiColorLoader_Example/Pods-BLMultiColorLoader_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BLMultiColorLoader_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56D6E648340C7D6F9AA59B780029C768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF97CE0E6C1825A64D9AB2E64269AF83 /* BLMultiColorLoader.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BLMultiColorLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7BF38E9607E5C2631DB58FAD2337ACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF97CE0E6C1825A64D9AB2E64269AF83 /* BLMultiColorLoader.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BLMultiColorLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8FE8A6B3CB06CC03117201DB8454269B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC1D0CD05A46480D17CE5333F6CC382 /* Pods-BLMultiColorLoader_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLMultiColorLoader_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLMultiColorLoader_Example/Pods-BLMultiColorLoader_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BLMultiColorLoader_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A34ED975ED1AD087CD39F8717233DCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF97CE0E6C1825A64D9AB2E64269AF83 /* BLMultiColorLoader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLMultiColorLoader/BLMultiColorLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLMultiColorLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/BLMultiColorLoader/BLMultiColorLoader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BLMultiColorLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9C66578AEDADD888A894E1A81B24BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B32F5A6BE13B058F4BAA35BFE1688B /* Pods-BLMultiColorLoader_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLMultiColorLoader_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLMultiColorLoader_Tests/Pods-BLMultiColorLoader_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BLMultiColorLoader_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6A523D0512B078C928F791C5761EB1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF97CE0E6C1825A64D9AB2E64269AF83 /* BLMultiColorLoader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLMultiColorLoader/BLMultiColorLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLMultiColorLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/BLMultiColorLoader/BLMultiColorLoader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BLMultiColorLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C58E07A7848158AA3B50D343ED6D94C /* Build configuration list for PBXNativeTarget "BLMultiColorLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34ED975ED1AD087CD39F8717233DCBF /* Debug */,
+				F6A523D0512B078C928F791C5761EB1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6DC4647497BEFEFC11790FA4311E59 /* Build configuration list for PBXNativeTarget "Pods-BLMultiColorLoader_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C66578AEDADD888A894E1A81B24BB8 /* Debug */,
+				404C2024633842F2791CF98A7D5A3F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D953883EB1EAB29EDB9CF77AC6336A72 /* Build configuration list for PBXNativeTarget "Pods-BLMultiColorLoader_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE8A6B3CB06CC03117201DB8454269B /* Debug */,
+				45469C650C6AD52F94D971AD7A36778D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6237FA303CCA2A9C2C8F086061D5F56 /* Build configuration list for PBXNativeTarget "BLMultiColorLoader-BLMultiColorLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D6E648340C7D6F9AA59B780029C768 /* Debug */,
+				7BF38E9607E5C2631DB58FAD2337ACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

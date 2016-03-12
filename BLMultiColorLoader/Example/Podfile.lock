@@ -1,0 +1,14 @@
+PODS:
+  - BLMultiColorLoader (0.1.0)
+
+DEPENDENCIES:
+  - BLMultiColorLoader (from `../`)
+
+EXTERNAL SOURCES:
+  BLMultiColorLoader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BLMultiColorLoader: ea9c55c6af8acce89bf45210d7f433b4b1cb348d
+
+COCOAPODS: 0.39.0
