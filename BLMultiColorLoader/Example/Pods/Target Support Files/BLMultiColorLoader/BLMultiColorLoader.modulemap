@@ -1,0 +1,6 @@
+framework module BLMultiColorLoader {
+  umbrella header "BLMultiColorLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}
