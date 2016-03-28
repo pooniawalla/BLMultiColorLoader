@@ -16,15 +16,15 @@ s.social_media_url = 'https://twitter.com/__poonia'
 s.platform     = :ios, '7.0'
 s.requires_arc = true
 
-# s.source_files = 'Pod/Classes/**/*'
-# s.resource_bundles = {
-# 'BLMultiColorLoader' => ['Pod/Assets/*.png']
-# }
-# s.public_header_files = 'Pod/Classes/**/*.h'
-s.source_files = 'Classes/**/*'
+s.source_files = 'Pod/Classes/**/*'
 s.resource_bundles = {
-'BLMultiColorLoader' => ['Assets/*.png']
+'BLMultiColorLoader' => ['Pod/Assets/*.png']
 }
-s.public_header_files = 'Classes/**/*.h'
+s.public_header_files = 'Pod/Classes/**/*.h'
+# s.source_files = 'Classes/**/*'
+# s.resource_bundles = {
+# 'BLMultiColorLoader' => ['Assets/*.png']
+# }
+# s.public_header_files = 'Classes/**/*.h'
 s.frameworks = 'UIKit'
 end
