@@ -2,7 +2,6 @@
 
 Simple, easy to use, multi coloured and customisable loading indicator (loader) for iOS applications.
 
-[![CI Status](http://img.shields.io/travis/Babulal Poonia/BLMultiColorLoader.svg?style=flat)](https://travis-ci.org/Babulal Poonia/BLMultiColorLoader)
 [![Version](https://img.shields.io/cocoapods/v/BLMultiColorLoader.svg?style=flat)](http://cocoapods.org/pods/BLMultiColorLoader)
 [![License](https://img.shields.io/cocoapods/l/BLMultiColorLoader.svg?style=flat)](http://cocoapods.org/pods/BLMultiColorLoader)
 [![Platform](https://img.shields.io/cocoapods/p/BLMultiColorLoader.svg?style=flat)](http://cocoapods.org/pods/BLMultiColorLoader)
@@ -14,8 +13,6 @@ Simple, easy to use, multi coloured and customisable loading indicator (loader) 
 ### Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -61,10 +58,10 @@ _multiColorLoader.colorArray = [NSArray arrayWithObjects:[UIColor redColor],
 
 - (void)doSomething
 {    
-[_multiColorLoader startAnimation];
-[XYZService fetchSomeData:^(){
-[_multiColorLoader stopAnimation];
-}];
+  [_multiColorLoader startAnimation];
+  [XYZService fetchSomeData:^(){
+    [_multiColorLoader stopAnimation];
+  }];
 }
 ```
 
