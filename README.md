@@ -72,7 +72,7 @@ _multiColorLoader.colorArray = [NSArray arrayWithObjects:[UIColor redColor],
 
 ## Author
 
-- [Babulal Poonia](https://github.com/BLPoonia) ([@__poonia](https://twitter.com/__poonia))
+- [Babulal Poonia](https://github.com/BLPoonia) ([@ixpoonia](https://twitter.com/ixpoonia))
 
 ## Contribution
 
